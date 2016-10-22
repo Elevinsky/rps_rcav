@@ -8,10 +8,24 @@
   <!-- Connect to Bootstrap CSS -->
   <link rel="stylesheet" href="/assets/css/bootstrap.css">
 
+  <link rel="stylesheet" href="/assets/css/additional-styles.css">
+
 </head>
 <body>
+  <div class="container">
+    <hr>
+      <div class="row">
+          <div class="col-md-offset-2 col-md-8">
+            <div class="btn-group btn-group-justified">
+              <a href="/rock" class="btn btn-primary">Play Rock</a>
+              <a href="/paper" class="btn btn-info">Play Paper</a>
+              <a href="/scissors" class="btn btn-primary">Play Scissors</a>
+            </div>
+        </div>
+      </div>
+      <hr>
 
 <%= yield %>
-
+  </div>
 </body>
 </html>
